@@ -141,5 +141,6 @@ networks:
   prometey:
     driver: bridge
     ipam:
+
       config:
         - subnet: 172.126.20.0/16
