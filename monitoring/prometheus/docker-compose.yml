@@ -3,7 +3,7 @@ version: '3.1'
 services:
   web:
     image: nginx
-    command: apt-get install iproute2
+    # command: apt-get install iproute2
     volumes:
       - ./nginx/services.conf:/etc/nginx/conf.d/default.conf
       - ./nginx/index.html:/usr/share/nginx/html/index.html
